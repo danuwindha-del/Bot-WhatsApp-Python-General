@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Daffo-Botz • Control Center</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <script defer src="/static/app.js"></script>
+</head>
+<body>
+<div class="aurora a1"></div><div class="aurora a2"></div>
+<header class="sidebar">
+  <div class="brand"><div class="brandMark">d<span>✦</span></div><div class="brandText"><b>daffo<span>studio</span></b><small>WHATSAPP INTELLIGENCE</small></div></div>
+  <div class="sidebarLabel">WORKSPACE</div>
+      <nav id="workspaceNav" class="tabs" aria-label="Navigasi utama" hidden>
+      <button class="tab active" data-tab="overview">Ringkasan</button>
+      <button class="tab" data-tab="ai">Mesin AI</button>
+      <button class="tab" data-tab="features">Fitur bot</button>
+      <button class="tab" data-tab="groups">Grup WhatsApp</button>
+      <button class="tab" data-tab="commands">Katalog command</button>
+      <button class="tab" data-tab="system">Sistem</button>
+    <button class="tab" data-tab="vision">Vision Lab <span class="navTag">BARU</span></button><button class="tab" data-tab="training">Studio Pelatihan <span class="navTag">BARU</span></button></nav>
+  <div class="sidebarBottom"><div class="creatorAvatar">D</div><div><b>Lord Daffo</b><small>Workspace owner</small></div><button id="logout" class="ghost" title="Keluar" hidden>↗</button></div>
+</header>
+<main>
+<div class="topbar"><span>Workspace <span class="slash">/</span> <b id="pageTitle">Control Center</b></span><div><span class="workspaceBadge">DAFFO-BOTZ · v3.2</span><button id="themeToggle" class="iconButton" aria-label="Ganti tema">◐</button></div></div>
+  <section id="login" class="panel login">
+    <div class="kicker">RUANG KERJA PRIBADI</div>
+    <h1>Percakapan hebat.<br>Dimulai di sini<span>.</span></h1>
+    <p>Satu tempat untuk merawat bot, mengajarinya hal baru, dan membangun percakapan yang lebih bermakna.</p>
+    <form id="loginForm">
+      <label>Username<input id="username" autocomplete="username" required></label>
+      <label>Password<input id="password" type="password" autocomplete="current-password" required></label>
+      <button class="primary full">Masuk ke Control Center →</button>
+    </form>
+  </section>
+
+  <div id="dashboard" hidden>
+    <section class="hero">
+      <div class="heroCopy"><div class="kicker"><span class="liveDot"></span> YOUR INTELLIGENCE WORKSPACE</div><h1>Lebih paham.<br><em>Lebih dekat.</em></h1><p>Ajari Daffo tentang duniamu. Bangun bot yang memahami<br class="desktopOnly"> pesan, melihat gambar, dan menjawab dengan caramu.</p><div class="heroActions"><span id="monitorState" class="pill">Menghubungkan monitor</span><button id="start" class="primary">▶︎ Mulai bot</button><button id="restart">↻ Restart</button><button id="stop" class="danger">■ Stop</button></div></div>
+      <div class="heroArt" aria-hidden="true"><div class="orbit orbitOne"></div><div class="orbit orbitTwo"></div><div class="artCore">d<span>✦</span></div><div class="artLabel labelOne">◈ &nbsp; Visual understanding</div><div class="artLabel labelTwo">✧ &nbsp; Knowledge & personality</div><span class="artStar">✳</span><div class="artCaption">A LITTLE MORE HUMAN.</div></div>
+    </section>
+
+    <section class="stats">
+      <article class="panel stat"><small>WHATSAPP</small><strong id="status">—</strong><span id="mode">—</span></article>
+      <article class="panel stat"><small>IN / OUT</small><strong><span id="incoming">0</span> / <span id="outgoing">0</span></strong><span>pesan sesi ini</span></article>
+      <article class="panel stat"><small>COMMAND</small><strong id="commandCount">0</strong><span>fitur aktif</span></article>
+      <article class="panel stat"><small>GROUP</small><strong id="groupCount">0</strong><span>terhubung</span></article>
+      <article class="panel stat"><small>AI MEMORY</small><strong id="aiSessions">0</strong><span>sesi aktif</span></article>
+      <article class="panel stat"><small>UPTIME</small><strong id="uptime">0m</strong><span id="systemInfo">—</span></article>
+    </section>
+
+
+
+    <div class="tabPage active" data-page="overview">
+      <div class="sectionIntro"><div><div class="kicker">SEKILAS HARI INI</div><h2>Semua terhubung, satu pandangan.</h2></div><span class="muted">Metrik dari sesi runtime saat ini</span></div>
+      <div class="grid">
+        <section class="panel wide"><div class="sectionTitle"><h3>Aktivitas percakapan</h3><span class="live">● LIVE</span></div><canvas id="chart" width="900" height="190"></canvas></section>
+        <section class="panel"><h3>Koneksi WhatsApp</h3><p id="pairStatus">Memeriksa sesi…</p><img id="qr" width="220" height="220" alt="QR WhatsApp" hidden><small>Jika belum terhubung, scan QR dari WhatsApp → Perangkat tertaut.</small></section>
+        <section class="panel wide"><div class="sectionTitle"><h3>Aktivitas runtime</h3><span class="live">● STREAM</span></div><pre id="logs"></pre></section>
+        <section class="panel"><h3>Kirim pesan</h3><label>Target nomor/JID<input id="sendTarget" placeholder="628xxx atau 123@g.us"></label><label>Pesan<textarea id="sendText" placeholder="Pesan dari Daffo Control Center"></textarea></label><button id="sendMessage" class="primary">Kirim pesan</button></section>
+      </div>
+    </div>
+
+    <div class="tabPage" data-page="ai">
+      <div class="grid">
+        <section class="panel wide"><div class="sectionTitle"><h3>Model & kepribadian</h3><span class="pill">AUTO REPLY</span></div><p>Chat biasa dapat dibalas otomatis tanpa <code>.ai</code>. AI dapat memakai kalkulator dan Wikipedia serta memahami hasil command. Perintah langsung tidak menunggu komentar AI.</p><form id="aiForm"><div class="fields"><label>Base URL<input id="ai_base_url" type="url" required></label><label>Model<input id="ai_model" required></label><label>API key baru<input id="ai_key" type="password" autocomplete="new-password" placeholder="Kosongkan untuk mempertahankan"></label><label>Timeout AI (detik)<input id="ai_timeout" type="number" min="5" max="90"></label><label>Mode AI grup<select id="ai_group_mode"><option value="all">Semua chat</option><option value="mention">Hanya chat menyebut Daffo</option></select></label><label>Temperature<input id="ai_temperature" type="number" min="0" max="1.5" step="0.05"></label><label>Max tokens<input id="ai_max_tokens" type="number" min="128" max="3000"></label><label>Memory turns<input id="ai_memory_turns" type="number" min="2" max="30"></label></div><label>System personality<textarea id="ai_system_prompt" class="tall"></textarea></label><p id="keyStatus"></p><button class="primary">Simpan AI</button><button id="clearKey" type="button">Hapus API key</button><button id="clearMemory" type="button">Bersihkan memori AI</button></form></section>
+        <section class="panel"><h3>Kemampuan AI</h3><div id="aiToggles"></div><small>Tool AI memerlukan dukungan provider. Bila tidak didukung, chat biasa dan command langsung tetap tersedia.</small></section>
+        <section class="panel wide"><h3>Uji AI & tool</h3><p>Uji ini memakai API key dan kuota provider yang tersimpan. Tidak mengirim pesan WhatsApp.</p><textarea id="testPrompt" placeholder="Hitung 12 × 8, atau cari Wikipedia tentang fotosintesis"></textarea><button id="testAI" class="primary">Uji AI</button><pre id="testResult" class="miniLog"></pre></section>
+      </div>
+    </div>
+
+    <div class="tabPage" data-page="features">
+      <div class="grid">
+        <section class="panel"><h3>Fitur aktif</h3><div id="featureToggles"></div></section>
+        <section class="panel wide"><h3>Moderasi & ritme bot</h3><p>Pengaturan moderasi berlaku global pada semua grup. Bot harus admin untuk menghapus pesan atau mengeluarkan anggota.</p><form id="configForm"><div class="fields"><label>Cooldown (detik, 0 = tanpa jeda input)<input id="cooldown" type="number" min="0" max="60"></label><label>Jeda kirim global (detik)<input id="send_interval" type="number" min="0.1" max="5" step="0.1"></label><label>Jeda kirim per chat (detik)<input id="chat_send_interval" type="number" min="0.2" max="10" step="0.1"></label><label>Max download MB<input id="max_download_mb" type="number" min="10" max="250"></label><label>Strike limit<input id="strike_limit" type="number" min="1" max="10"></label><label>Admin numbers<input id="admins" placeholder="628xxx, 628xxx"></label><label class="span2">Toxic words<input id="toxic_words" placeholder="kata1, kata2"></label></div><label>Welcome message<textarea id="welcome_message"></textarea><small>Variabel: {user} dan {group}</small></label><button class="primary">Simpan pengaturan</button></form></section>
+      </div>
+    </div>
+
+    <div class="tabPage" data-page="groups">
+      <div class="grid">
+        <section class="panel"><div class="sectionTitle"><h3>Group list</h3><button id="refreshGroups">Refresh</button></div><div id="groups"></div></section>
+        <section class="panel wide"><h3>Group control</h3><label>Pilih group<select id="groupSelect"></select></label><div class="buttonRow"><button class="groupAction" data-action="open">🔓 Open</button><button class="groupAction" data-action="close">🔒 Close</button><button class="groupAction" data-action="invite">🔗 Invite link</button></div><label>Kirim pesan ke group<textarea id="groupText"></textarea></label><button id="groupSend" class="primary">Kirim ke group</button><label>Nama/deskripsi baru<input id="groupEditText" maxlength="2000"></label><button id="groupName">Simpan nama</button><button id="groupDescription">Simpan deskripsi</button><pre id="groupResult" class="miniLog"></pre></section>
+      </div>
+    </div>
+
+    <div class="tabPage" data-page="commands">
+      <section class="panel"><div class="sectionTitle"><div><h3>Command Explorer</h3><p>Semua command aktif dari Daffo runtime + feature pack.</p></div><input id="commandSearch" class="search" placeholder="Cari command…"></div><p>Native = implementasi tersedia; Provider = belum ada implementasi langsung. Klik untuk menyalin command.</p><div id="commands" class="commandCloud"></div></section>
+    </div>
+
+    <div class="tabPage" data-page="system">
+      <div class="grid">
+        <section class="panel"><h3>Runtime</h3><p>Durasi pemrosesan mencakup pengiriman; bukan waktu tunggu antrean.</p><dl id="runtimeInfo"></dl></section>
+        <section class="panel"><h3>Queue</h3><div class="bigMetric"><span id="queue">0</span><small>queued</small></div><div class="bigMetric"><span id="dropped">0</span><small>dropped</small></div></section>
+        <section class="panel wide"><div class="sectionTitle"><h3>Diagnostics</h3><button id="diagnose">Periksa sistem</button></div><div id="diagnostics"></div></section>
+        <section class="panel"><h3>Backup pengaturan</h3><p>Ekspor tidak menyertakan API key, password, atau sesi WhatsApp. Impor hanya mengubah field yang ada di berkas.</p><button id="exportConfig">Ekspor JSON</button><label>Impor JSON<input id="importConfig" type="file" accept="application/json,.json"></label></section>
+        <section class="panel wide"><h3>Daffo identity</h3><p><b>Daffo BOT</b> adalah asisten WhatsApp yang dibuat oleh <b>Lord Daffo</b>.</p><p>Owner contact: <b>085648175452</b></p><p class="muted">Dashboard tidak menyediakan shell/terminal jarak jauh. Kontrol dibatasi ke fungsi bot yang terautentikasi.</p></section>
+      </div>
+    </div>
+
+    <div class="tabPage" data-page="vision">
+      <div class="sectionIntro"><div><div class="kicker">VISION LAB / MULTIMODAL</div><h2>Gambar juga punya cerita.</h2><p>Baca teks, pahami objek, atau tanyakan detail dari foto dengan model AI milik bot.</p></div><span class="badge">JPEG · PNG · WEBP</span></div>
+      <div class="grid">
+        <section class="panel wide"><div class="sectionTitle"><h3>Visual playground</h3><span class="badge">Maks. 5 MB · 20 MP</span></div>
+          <label class="dropZone" for="visionFile"><span class="uploadGlyph">↑</span><b>Pilih gambar untuk dipahami</b><small>Gambar hanya diproses untuk permintaan ini</small><input id="visionFile" type="file" accept="image/jpeg,image/png,image/webp"></label>
+          <div class="imagePreview" id="visionPreviewWrap" hidden><img id="visionPreview" alt="Pratinjau gambar yang dipilih"><button id="visionRemove" type="button">Hapus gambar ×</button><small id="visionFileInfo"></small></div>
+          <label>Pertanyaan tentang gambar<textarea id="visionPrompt" placeholder="Apa yang terlihat? Baca teksnya, lalu jelaskan dengan bahasa sederhana."></textarea></label>
+          <div class="buttonRow"><button class="promptChip" data-prompt="Jelaskan objek dan konteks gambar ini. Jangan menebak hal yang tidak terlihat.">◈ Deskripsikan</button><button class="promptChip" data-prompt="Salin teks yang terlihat di gambar. Tandai bagian yang sulit dibaca.">Aa Baca teks</button><button class="promptChip" data-prompt="Analisis gambar produk ini dan susun deskripsi produk tanpa mengarang spesifikasinya.">✧ Analisis produk</button></div>
+          <button id="visionAnalyze" class="primary">✦ Analisis gambar</button><div id="visionResult" class="answerBox" aria-live="polite">Hasil analisis akan muncul di sini.</div>
+        </section>
+        <div class="stack"><section class="panel"><div class="kicker">MODEL YANG SAMA, INDRA BARU</div><h3>Pengaturan vision</h3><p>Memakai endpoint dan API key AI yang tersimpan. Model harus mendukung input gambar.</p><form id="visionForm"><label>Model vision (opsional)<input id="ai_vision_model" placeholder="Kosong = model AI utama"></label><button class="primary">Simpan model</button></form><dl><dt>Permintaan gambar</dt><dd id="visionRequests">0</dd><dt>Dukungan provider</dt><dd id="visionSupport">Belum diuji</dd></dl></section>
+        <section class="panel guide"><h3>Di WhatsApp</h3><p>Kirim gambar dengan caption pertanyaan, atau balas gambar menggunakan:</p><code>.lihat Apa isi gambar ini?</code><code>.ocr Salin teksnya</code><small>Balasan otomatis mengikuti switch AI pribadi/grup dan mode mention. Media sekali lihat tidak diproses. Gambar dikirim ke provider AI yang dipilih; gambar mentah tidak disimpan dalam riwayat AI.</small></section></div>
+      </div>
+    </div>
+    <div class="tabPage" data-page="training">
+      <div class="sectionIntro"><div><div class="kicker">TEACH / TEST / PUBLISH</div><h2>Bot pintar. Sentuhanmu.</h2><p>Berikan pengetahuan dan contoh jawaban yang benar-benar mencerminkan kebutuhanmu.</p></div><button id="trainingReload">↻ Muat ulang</button></div>
+      <div class="trainingBar"><div><span class="liveDot"></span><b id="trainingState">Memuat studio…</b><small id="trainingSummary"></small></div><div><input id="publishLabel" aria-label="Label versi" placeholder="Nama versi, mis. Layanan pelanggan v1" maxlength="100"><button id="trainingPublish" class="primary">↗ Terbitkan ke bot</button></div></div>
+      <div class="pipeline"><span><b>01</b> Susun pengetahuan</span><i>→</i><span><b>02</b> Uji respons</span><i>→</i><span><b>03</b> Terbitkan versi</span><small>Perubahan draft tidak memengaruhi bot sampai diterbitkan.</small></div>
+      <div class="grid">
+        <section class="panel"><div class="sectionTitle"><h3>Profil & prinsip</h3><span class="badge">PERSONALITY</span></div><form id="trainingProfileForm"><label>Nama profil<input id="profileName" maxlength="100" required></label><label>Gaya bicara<input id="profileTone" maxlength="200" required></label><label>Bahasa<input id="profileLanguage" maxlength="100" required></label><label>Tujuan bot<textarea id="profileObjective" maxlength="2000" placeholder="Bantu pelanggan memilih produk dan memahami layanan."></textarea></label><label>Prinsip respons<textarea id="profileRules" maxlength="4000" placeholder="Jangan menjanjikan stok yang belum dikonfirmasi."></textarea></label><label>Jika belum tahu<textarea id="profileFallback" maxlength="500"></textarea></label><button class="primary">Simpan profil draft</button></form></section>
+        <section class="panel wide"><div class="sectionTitle"><h3>Basis pengetahuan</h3><span id="documentCount" class="badge">0 dokumen</span></div><p>FAQ, kebijakan, katalog, atau panduan. Bot mengambil potongan relevan saat menjawab, bukan seluruh dokumen.</p><form id="documentForm"><input id="documentId" type="hidden"><div class="fields"><label>Judul<input id="documentTitle" maxlength="160" required placeholder="Pengiriman & pengembalian"></label><label>Tag<input id="documentTags" maxlength="300" placeholder="pengiriman, toko, FAQ"></label></div><label>Isi pengetahuan<textarea id="documentContent" class="tall" maxlength="12000" required placeholder="Tulis informasi faktual dan lengkap yang boleh dipakai bot."></textarea></label><label class="inlineCheck"><input id="documentEnabled" type="checkbox" checked> Sertakan dokumen dalam pencarian</label><div class="buttonRow"><button class="primary">Simpan dokumen</button><button id="documentCancel" type="button">Bersihkan</button><label class="fileButton">Baca file teks<input id="documentFile" type="file" accept=".txt,.md,text/plain,text/markdown"></label></div></form><input id="knowledgeSearch" placeholder="Cari judul, tag, atau isi dokumen…" aria-label="Cari pengetahuan"><div id="documentList" class="entryList"></div></section>
+        <section class="panel wide"><div class="sectionTitle"><h3>Ruang simulasi</h3><span class="badge">TANPA PESAN WHATSAPP</span></div><div class="fields"><label>Sumber pengetahuan<select id="previewMode"><option value="draft">Draft yang sedang disusun</option><option value="active">Versi aktif di bot</option></select></label><label class="inlineCheck"><input id="previewGenerate" type="checkbox"> Buat jawaban AI (memakai kuota provider)</label></div><textarea id="trainingPrompt" placeholder="Contoh: Berapa lama pengiriman pesanan saya?"></textarea><button id="trainingPreview" class="primary">✦ Uji pengetahuan</button><div id="trainingAnswer" class="answerBox" aria-live="polite">Uji pencarian tanpa API key, atau aktifkan jawaban AI untuk simulasi lengkap.</div><div id="trainingSources" class="sourceList"></div></section>
+        <section class="panel"><h3>Contoh jawaban</h3><p>Ajarkan gaya respons lewat pasangan pertanyaan dan jawaban yang relevan.</p><form id="exampleForm"><input id="exampleId" type="hidden"><label>Pertanyaan<textarea id="exampleQuestion" maxlength="1000" required></textarea></label><label>Jawaban ideal<textarea id="exampleAnswer" maxlength="4000" required></textarea></label><button class="primary">Simpan contoh</button><button id="exampleCancel" type="button">Bersihkan</button></form><div id="exampleList" class="entryList"></div></section>
+        <section class="panel wide"><div class="sectionTitle"><h3>Quality checks</h3><span class="badge">REGRESSION SUITE</span></div><p>Periksa kata atau frasa wajib pada hasil retrieval atau jawaban AI. Ini pengukuran cakupan kata, bukan penilaian kebenaran otomatis.</p><form id="evaluationForm"><input id="evaluationId" type="hidden"><div class="fields"><label>Pertanyaan uji<input id="evaluationQuestion" maxlength="1000" required></label><label>Frasa wajib (pisahkan koma)<input id="evaluationExpected" maxlength="1000" required placeholder="3 hari, gratis"></label></div><button>Simpan kasus uji</button><button id="evaluationCancel" type="button">Bersihkan</button></form><div id="evaluationList" class="entryList"></div><div class="buttonRow"><button id="runEvaluation" class="primary">▶ Jalankan pengujian</button><span class="muted">Mengikuti mode dan switch AI di ruang simulasi.</span></div><div id="evaluationResults" aria-live="polite"></div></section>
+        <section class="panel"><h3>Riwayat versi</h3><p>20 publikasi terakhir. Pemulihan mengubah versi aktif; draft tetap disimpan.</p><div id="versionList" class="entryList"></div><hr><h3>Portabilitas data</h3><button id="trainingExport">↓ Ekspor dataset</button><label class="fileButton">↑ Impor dataset<input id="trainingImport" type="file" accept=".json,application/json"></label><small>Impor mengganti draft setelah konfirmasi. Dataset berisi informasi yang kamu tulis, tanpa API key atau sesi WhatsApp.</small></section>
+      </div>
+    </div>
+  </div>
+
+  <p id="notice" role="status" aria-live="polite"></p>
+  <footer><b>DAFFO-BOTZ</b> • Intelligence, with a human touch. <span>Made by Lord Daffo • 085648175452</span></footer>
+</main>
+</body>
+</html>

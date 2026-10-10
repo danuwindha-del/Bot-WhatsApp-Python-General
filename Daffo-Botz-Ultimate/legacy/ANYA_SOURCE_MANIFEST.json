@@ -1,0 +1,3919 @@
+[
+  {
+    "file": "_system/@verify.js",
+    "category": "_system",
+    "help": [
+      "@verify"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "_system/_afk.js",
+    "category": "_system",
+    "help": [],
+    "status": "catalogued"
+  },
+  {
+    "file": "_system/_allfake.js",
+    "category": "_system",
+    "help": [],
+    "status": "catalogued"
+  },
+  {
+    "file": "_system/_allmenu.js",
+    "category": "_system",
+    "help": [],
+    "status": "catalogued"
+  },
+  {
+    "file": "_system/_antispam.js",
+    "category": "_system",
+    "help": [],
+    "status": "catalogued"
+  },
+  {
+    "file": "_system/_anya-command.js",
+    "category": "_system",
+    "help": [],
+    "status": "catalogued"
+  },
+  {
+    "file": "_system/_autogempa.js",
+    "category": "_system",
+    "help": [
+      "gempa"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "_system/_autogpt.js",
+    "category": "_system",
+    "help": [],
+    "status": "catalogued"
+  },
+  {
+    "file": "_system/_cmdWithMedia.js",
+    "category": "_system",
+    "help": [],
+    "status": "catalogued"
+  },
+  {
+    "file": "_system/_didyoumen.js",
+    "category": "_system",
+    "help": [],
+    "status": "catalogued"
+  },
+  {
+    "file": "_system/_premium.js",
+    "category": "_system",
+    "help": [],
+    "status": "catalogued"
+  },
+  {
+    "file": "_system/_role.js",
+    "category": "_system",
+    "help": [],
+    "status": "catalogued"
+  },
+  {
+    "file": "_system/_templateResponse.js",
+    "category": "_system",
+    "help": [],
+    "status": "catalogued"
+  },
+  {
+    "file": "_system/_totalchat-listener.js",
+    "category": "_system",
+    "help": [],
+    "status": "catalogued"
+  },
+  {
+    "file": "_system/check-expired.js",
+    "category": "_system",
+    "help": [],
+    "status": "catalogued"
+  },
+  {
+    "file": "_system/checkerror.js",
+    "category": "_system",
+    "help": [
+      "checkerror"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "_system/cmd-del.js",
+    "category": "_system",
+    "help": [
+      "delcmd"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "_system/cmd-list.js",
+    "category": "_system",
+    "help": [
+      "listcmd"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "_system/cmd-lock.js",
+    "category": "_system",
+    "help": [
+      "un"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "_system/cmd-set.js",
+    "category": "_system",
+    "help": [
+      "setcmd <teks>"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "_system/huu.js",
+    "category": "_system",
+    "help": [],
+    "status": "catalogued"
+  },
+  {
+    "file": "ai/addai.js",
+    "category": "ai",
+    "help": [],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "ai/ai-bard.js",
+    "category": "ai",
+    "help": [
+      "bard <pertanyaan>"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "ai/ai-copilotthink.js",
+    "category": "ai",
+    "help": [
+      "copilotthink <pertanyaan>"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "ai/ai-createimg.js",
+    "category": "ai",
+    "help": [
+      "createimg"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "ai/ai-dolphin.js",
+    "category": "ai",
+    "help": [
+      "dolphin <pertanyaan>"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "ai/ai-edithair.js",
+    "category": "ai",
+    "help": [
+      "hairstyle <prompt>"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "ai/ai-editimg.js",
+    "category": "ai",
+    "help": [
+      "editimg <prompt> (reply foto)"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "ai/ai-epsilon.js",
+    "category": "ai",
+    "help": [
+      "epsilon"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "ai/ai-felo.js",
+    "category": "ai",
+    "help": [
+      "felo"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "ai/ai-flux.js",
+    "category": "ai",
+    "help": [
+      "flux <prompt>"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "ai/ai-gemini.js",
+    "category": "ai",
+    "help": [
+      "gemini <text>"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "ai/ai-ghibli.js",
+    "category": "ai",
+    "help": [
+      "ghibli"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "ai/ai-gita.js",
+    "category": "ai",
+    "help": [
+      "gita"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "ai/ai-gptprompt.js",
+    "category": "ai",
+    "help": [
+      "gptprompt"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "ai/ai-hyper.js",
+    "category": "ai",
+    "help": [
+      "aihyper <text>"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "ai/ai-imgprompt.js",
+    "category": "ai",
+    "help": [
+      "imgprompt"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "ai/ai-jadikomik.js",
+    "category": "ai",
+    "help": [
+      "jadikomik"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "ai/ai-jeeves.js",
+    "category": "ai",
+    "help": [
+      "jeeves"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "ai/ai-kurumi.js",
+    "category": "ai",
+    "help": [
+      "kurumi <teks>"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "ai/ai-muslimai.js",
+    "category": "ai",
+    "help": [],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "ai/ai-nanobana.js",
+    "category": "ai",
+    "help": [
+      "editimage",
+      "nanobanana"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "ai/ai-nsfwcheck.js",
+    "category": "ai",
+    "help": [
+      "nsfwcheck"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "ai/ai-petimg.js",
+    "category": "ai",
+    "help": [
+      "petimg",
+      "petvid"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "ai/ai-powerbrain.js",
+    "category": "ai",
+    "help": [
+      "powerbrain"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "ai/ai-public.js",
+    "category": "ai",
+    "help": [
+      "publicai"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "ai/ai-quilbot.js",
+    "category": "ai",
+    "help": [
+      "quillbot"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "ai/ai-realtime.js",
+    "category": "ai",
+    "help": [
+      "airealtime <pertanyaan>"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "ai/ai-sonu3.js",
+    "category": "ai",
+    "help": [
+      "sonu3"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "ai/ai-text2img.js",
+    "category": "ai",
+    "help": [
+      "aiimg <prompt>"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "ai/ai-text2vid.js",
+    "category": "ai",
+    "help": [
+      "aivid <prompt>",
+      "aivid (reply image)"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "ai/ai-toprompt.js",
+    "category": "ai",
+    "help": [
+      "imageprompt"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "ai/ai-upscaler.js",
+    "category": "ai",
+    "help": [
+      "upscale"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "ai/aipaimon.js",
+    "category": "ai",
+    "help": [
+      "paimon <pesan>",
+      "paimon on",
+      "paimon off",
+      "paimon status",
+      "paimon reset"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "ai/autogpt chat.js",
+    "category": "ai",
+    "help": [
+      "openai"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "ai/toai.js",
+    "category": "ai",
+    "help": [
+      "toaisticker"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "anime/alqanime.js",
+    "category": "anime",
+    "help": [
+      "alqanime on",
+      "alqanime off",
+      "alqanime status",
+      "alqanime test"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "anime/anime-bacakomik.js",
+    "category": "anime",
+    "help": [
+      "bacakomik",
+      "komik"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "anime/anime-bluearchive.js",
+    "category": "anime",
+    "help": [
+      "bluearchive"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "anime/anime-info.js",
+    "category": "anime",
+    "help": [
+      "animeinfo <anime>"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "anime/anime-loli.js",
+    "category": "anime",
+    "help": [
+      "loli"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "anime/anime-ongoing.js",
+    "category": "anime",
+    "help": [],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "anime/anime-otakudesu.js",
+    "category": "anime",
+    "help": [
+      "otakudesu"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "anime/anime-random.js",
+    "category": "anime",
+    "help": [
+      "animerandom"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "anime/anime-storywa.js",
+    "category": "anime",
+    "help": [
+      "storyanime"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "anime/animenotif.js",
+    "category": "anime",
+    "help": [
+      "animenotif on",
+      "animenotif off",
+      "animenotif status",
+      "animenotif test"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "anime/animequotes.js",
+    "category": "anime",
+    "help": [
+      "animequotes"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "downloader/bypass.js",
+    "category": "downloader",
+    "help": [
+      "bypass <url>"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "downloader/bypass2.js",
+    "category": "downloader",
+    "help": [
+      "bypass2 <url>"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "downloader/down-aio.js",
+    "category": "downloader",
+    "help": [
+      "omnify <url>",
+      "aio <url>"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "downloader/down-facebook.js",
+    "category": "downloader",
+    "help": [
+      "facebook <link>"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "downloader/down-gdrive.js",
+    "category": "downloader",
+    "help": [
+      "gdrive <url>"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "downloader/down-igmp3.js",
+    "category": "downloader",
+    "help": [
+      "igaudio",
+      "igmp3"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "downloader/down-instagram.js",
+    "category": "downloader",
+    "help": [
+      "instagram",
+      "ig",
+      "igdl",
+      "ighd"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "downloader/down-mediafire.js",
+    "category": "downloader",
+    "help": [
+      "mediafire"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "downloader/down-myinstants.js",
+    "category": "downloader",
+    "help": [
+      "myinstants search <query>",
+      "myinstants play <nomor>"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "downloader/down-pindl.js",
+    "category": "downloader",
+    "help": [
+      "pindl"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "downloader/down-sfile.js",
+    "category": "downloader",
+    "help": [
+      "sfile"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "downloader/down-soundcloud.js",
+    "category": "downloader",
+    "help": [
+      "soundcloud <query>"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "downloader/down-spdl.js",
+    "category": "downloader",
+    "help": [
+      "spotify"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "downloader/down-threads.js",
+    "category": "downloader",
+    "help": [
+      "threads <url>"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "downloader/down-tiktok.js",
+    "category": "downloader",
+    "help": [
+      "tt",
+      "ttdl",
+      "tiktok"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "downloader/down-ttmusic.js",
+    "category": "downloader",
+    "help": [
+      "ttmp3"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "downloader/down-yt.js",
+    "category": "downloader",
+    "help": [
+      "yt",
+      "ytinfo"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "downloader/down-ytmp3.js",
+    "category": "downloader",
+    "help": [
+      "yta",
+      "ytmp3",
+      "ytv",
+      "ytmp4"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "downloader/downloader-aio2.js",
+    "category": "downloader",
+    "help": [
+      "aio2 <url>"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "downloader/downloader-blibili.js",
+    "category": "downloader",
+    "help": [
+      "bilibili <url>"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "downloader/downloader-douyin.js",
+    "category": "downloader",
+    "help": [
+      "douyin <url>"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "downloader/downloader-facebook.js",
+    "category": "downloader",
+    "help": [
+      "facebook <link>"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "downloader/downloader-terabox.js",
+    "category": "downloader",
+    "help": [
+      "terabox"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "downloader/downloader-twitter.js",
+    "category": "downloader",
+    "help": [
+      "twitter"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "downloader/downloader-videy.js",
+    "category": "downloader",
+    "help": [
+      "videy <url>"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "downloader/downloader-ytdlp.js",
+    "category": "downloader",
+    "help": [],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "downloader/ig2.js",
+    "category": "downloader",
+    "help": [
+      "ig2"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "downloader/skiplink.js",
+    "category": "downloader",
+    "help": [
+      "skiplink <url>"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "economy/addexp.js",
+    "category": "economy",
+    "help": [],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "economy/limit.js",
+    "category": "economy",
+    "help": [],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "economy/withdraw.js",
+    "category": "economy",
+    "help": [
+      "withdraw <jumlah>"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "economy/xp-ceksn.js",
+    "category": "economy",
+    "help": [
+      "ceksn"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "economy/xp-levelup.js",
+    "category": "economy",
+    "help": [
+      "levelup"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "economy/xp-profile.js",
+    "category": "economy",
+    "help": [
+      "profile",
+      "profil",
+      "me",
+      "my"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "economy/xp-register.js",
+    "category": "economy",
+    "help": [
+      "daftar nama,umur"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "economy/xp-unregister.js",
+    "category": "economy",
+    "help": [
+      "unreg"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "fun/bahlil.js",
+    "category": "fun",
+    "help": [
+      "bahlil",
+      "bratbahlil"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "fun/fun-angka.js",
+    "category": "fun",
+    "help": [
+      "angka"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "fun/fun-cap.js",
+    "category": "fun",
+    "help": [
+      "cap",
+      "delcap"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "fun/fun-carabalikan.js",
+    "category": "fun",
+    "help": [
+      "carabalikan"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "fun/fun-cekcantik.js",
+    "category": "fun",
+    "help": [
+      "cantikcek"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "fun/fun-cekiq.js",
+    "category": "fun",
+    "help": [
+      "cekiq"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "fun/fun-cekkhodam.js",
+    "category": "fun",
+    "help": [
+      "cekkhodam"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "fun/fun-ceksifat.js",
+    "category": "fun",
+    "help": [
+      "ceksifat"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "fun/fun-cektt.js",
+    "category": "fun",
+    "help": [
+      "cektt *<name>*"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "fun/fun-dare.js",
+    "category": "fun",
+    "help": [
+      "dare"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "fun/fun-diamakah.js",
+    "category": "fun",
+    "help": [
+      "dimanakah <pertanyaan>"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "fun/fun-gantengcek.js",
+    "category": "fun",
+    "help": [
+      "gantengcek"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "fun/fun-jadian.js",
+    "category": "fun",
+    "help": [],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "fun/fun-pilih.js",
+    "category": "fun",
+    "help": [
+      "fakepilih <teks1,teks2>"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "fun/fun-stress.js",
+    "category": "fun",
+    "help": [
+      "genjot",
+      "nenen",
+      "wangy",
+      "curhat",
+      "perkosa"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "fun/fun-truth.js",
+    "category": "fun",
+    "help": [
+      "truth"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "fun/jadian-nembak.js",
+    "category": "fun",
+    "help": [
+      "tembak @tag"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "fun/quotes-bucin.js",
+    "category": "fun",
+    "help": [
+      "quotebucin"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "fun/quotes-sadboy.js",
+    "category": "fun",
+    "help": [
+      "sadboy"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "fun/random-pap.js",
+    "category": "fun",
+    "help": [
+      "pap"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "fun/random-papayang.js",
+    "category": "fun",
+    "help": [
+      "papayang"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "fun/random-ppcp.js",
+    "category": "fun",
+    "help": [
+      "ppcp",
+      "ppcouple"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "fun/sound-sad.js",
+    "category": "fun",
+    "help": [
+      "sad <nomor>"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "fun/tafsirmimpi.js",
+    "category": "fun",
+    "help": [
+      "mimpi2 <kata>"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "game/akinator.js",
+    "category": "game",
+    "help": [
+      "akinator",
+      "akinator stop"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "game/gachapet.js",
+    "category": "game",
+    "help": [
+      "mypet",
+      "petstatus",
+      "gachapet",
+      "reroll"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "game/game-blockgame.js",
+    "category": "game",
+    "help": [
+      "blockblast",
+      "blockgame",
+      "blockpuzzle"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "game/game-bom-ans.js",
+    "category": "game",
+    "help": [],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "game/game-bom.js",
+    "category": "game",
+    "help": [
+      "bomb"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "game/game-bonanza.js",
+    "category": "game",
+    "help": [
+      "bonanza"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "game/game-caklontong.js",
+    "category": "game",
+    "help": [
+      "caklontong"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "game/game-caklontong_ans.js",
+    "category": "game",
+    "help": [],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "game/game-caklontong_hint.js",
+    "category": "game",
+    "help": [],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "game/game-chess.js",
+    "category": "game",
+    "help": [
+      "chess"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "game/game-dadu.js",
+    "category": "game",
+    "help": [
+      "dadu"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "game/game-dino.js",
+    "category": "game",
+    "help": [
+      "dinogame"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "game/game-family100-hint.js",
+    "category": "game",
+    "help": [
+      "hint"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "game/game-family100.js",
+    "category": "game",
+    "help": [
+      "family100"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "game/game-flapfy.js",
+    "category": "game",
+    "help": [
+      "flappy"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "game/game-geometry.js",
+    "category": "game",
+    "help": [
+      "geometrydash",
+      "gdmini",
+      "geometrygame"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "game/game-hangman.js",
+    "category": "game",
+    "help": [
+      "hangman"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "game/game-minesweeper.js",
+    "category": "game",
+    "help": [
+      "minesweeper",
+      "sweeper",
+      "mine"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "game/game-nyerah.js",
+    "category": "game",
+    "help": [
+      "nyerah"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "game/game-sambungkata.js",
+    "category": "game",
+    "help": [
+      "sambungkata"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "game/game-siapakahaku.js",
+    "category": "game",
+    "help": [
+      "siapakahaku"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "game/game-slot.js",
+    "category": "game",
+    "help": [
+      "slot"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "game/game-sonic.js",
+    "category": "game",
+    "help": [
+      "sonic",
+      "speedy"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "game/game-suitpvp-ans.js",
+    "category": "game",
+    "help": [],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "game/game-suitpvp.js",
+    "category": "game",
+    "help": [
+      "suitpvp"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "game/game-suitpvp_ans.js",
+    "category": "game",
+    "help": [],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "game/game-susunkata.js",
+    "category": "game",
+    "help": [
+      "susunkata"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "game/game-tebakanml.js",
+    "category": "game",
+    "help": [
+      "tebakanml"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "game/game-tebakbenda.js",
+    "category": "game",
+    "help": [
+      "tebakbenda"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "game/game-tebakbendera.js",
+    "category": "game",
+    "help": [
+      "tebakbendera"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "game/game-tebakbuah.js",
+    "category": "game",
+    "help": [
+      "tebakbuah"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "game/game-tebakgambar.js",
+    "category": "game",
+    "help": [
+      "tebakgambar"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "game/game-tebakgame.js",
+    "category": "game",
+    "help": [
+      "tebakgame"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "game/game-tebakheroml.js",
+    "category": "game",
+    "help": [
+      "tebakheroml"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "game/game-tebakjkt.js",
+    "category": "game",
+    "help": [
+      "tebakjkt"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "game/game-tebakkata.js",
+    "category": "game",
+    "help": [
+      "tebakkata"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "game/game-tebakkimia.js",
+    "category": "game",
+    "help": [
+      "tebakkimia"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "game/game-tebaklagu.js",
+    "category": "game",
+    "help": [
+      "tebaklagu"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "game/game-tebaklirik.js",
+    "category": "game",
+    "help": [
+      "tebaklirik"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "game/game-tebaklogo.js",
+    "category": "game",
+    "help": [
+      "tebaklogo"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "game/game-tebaksurah.js",
+    "category": "game",
+    "help": [
+      "tebaksurah"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "game/game-tebaktebakan.js",
+    "category": "game",
+    "help": [
+      "tebaktebakan"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "game/game-tebakwarna.js",
+    "category": "game",
+    "help": [
+      "tebakwarna"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "game/game-tekateki.js",
+    "category": "game",
+    "help": [
+      "tekateki"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "game/tictactoe.js",
+    "category": "game",
+    "help": [
+      "tictactoe",
+      "ttt"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "group/Group-ammode.js",
+    "category": "group",
+    "help": [
+      "ammode on",
+      "ammode off"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "group/Group-menuam.js",
+    "category": "group",
+    "help": [
+      "ammenu"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "group/absen.js",
+    "category": "group",
+    "help": [
+      "mulaiabsen",
+      "absen",
+      "listabsen",
+      "resetabsen"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "group/anti-unadmin.js",
+    "category": "group",
+    "help": [],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "group/anticolong.js",
+    "category": "group",
+    "help": [],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "group/autosholat.js",
+    "category": "group",
+    "help": [],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "group/blacklist.js",
+    "category": "group",
+    "help": [
+      "blacklist"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "group/bungkam.js",
+    "category": "group",
+    "help": [
+      "bungkam"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "group/delblacklist.js",
+    "category": "group",
+    "help": [
+      "delblacklist"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "group/group-addlist.js",
+    "category": "group",
+    "help": [
+      "addlist",
+      "list",
+      "dellist"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "group/group-adminonly.js",
+    "category": "group",
+    "help": [
+      "adminonly"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "group/group-antilink.js",
+    "category": "group",
+    "help": [
+      "antilink"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "group/group-antispam.js",
+    "category": "group",
+    "help": [
+      "antispam --on",
+      "antispam --off"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "group/group-antitagall.js",
+    "category": "group",
+    "help": [
+      "antitagall --on",
+      "antitagall --off"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "group/group-antitagsw.js",
+    "category": "group",
+    "help": [
+      "antitagsw on",
+      "antitagsw off",
+      "antitagsw set <jumlah>"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "group/group-antitoxic.js",
+    "category": "group",
+    "help": [
+      "antitoxic"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "group/group-antiunadmin.js",
+    "category": "group",
+    "help": [
+      "antiunadmin on",
+      "antiunadmin off"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "group/group-antivirtex.js",
+    "category": "group",
+    "help": [
+      "antivirtex --on",
+      "antivirtex --off"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "group/group-autogpt.js",
+    "category": "group",
+    "help": [
+      "autoanya"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "group/group-delsw.js",
+    "category": "group",
+    "help": [],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "group/group-hidetag.js",
+    "category": "group",
+    "help": [
+      "hidetag",
+      "h"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "group/group-jadwalbukatutup.js",
+    "category": "group",
+    "help": [
+      "bukajam",
+      "tutupjam",
+      "jadwal",
+      "hapusbukajam",
+      "hapustutupjam",
+      "hapusjadwal"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "group/group-link-revoke.js",
+    "category": "group",
+    "help": [
+      "revoke"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "group/group-linkgc.js",
+    "category": "group",
+    "help": [
+      "linkgc"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "group/group-linkgrup.js",
+    "category": "group",
+    "help": [
+      "linkgrup"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "group/group-manage.js",
+    "category": "group",
+    "help": [
+      "add",
+      "kick",
+      "promote",
+      "demote",
+      "opengc",
+      "closegc"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "group/group-pinpesan.js",
+    "category": "group",
+    "help": [
+      "pinpesan"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "group/group-setcostum.js",
+    "category": "group",
+    "help": [
+      "welcome",
+      "bye",
+      "promote",
+      "demote"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "group/group-setintro.js",
+    "category": "group",
+    "help": [
+      "setintro",
+      "intro",
+      "delintro"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "group/group-sider.js",
+    "category": "group",
+    "help": [
+      "sider",
+      "kicksider",
+      "resetsider"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "group/group-tagall.js",
+    "category": "group",
+    "help": [
+      "tagall"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "group/group-totag.js",
+    "category": "group",
+    "help": [
+      "totag"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "group/group-unipin.js",
+    "category": "group",
+    "help": [
+      "unpin"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "group/group-upswgc.js",
+    "category": "group",
+    "help": [
+      "swgc"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "group/kickme.js",
+    "category": "group",
+    "help": [
+      "leavegc",
+      "kickme",
+      "out"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "info/adminlist.js",
+    "category": "info",
+    "help": [],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "info/cuaca.js",
+    "category": "info",
+    "help": [
+      "cuaca <kota>",
+      "cuacaall",
+      "cuaca on",
+      "cuaca off",
+      "cuaca status"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "info/info-dashboard.js",
+    "category": "info",
+    "help": [
+      "dashboard"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "info/info-listprem.js",
+    "category": "info",
+    "help": [
+      "listpremium"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "info/info-runtime.js",
+    "category": "info",
+    "help": [
+      "statusbot",
+      "botinfo",
+      "infobot",
+      "runtime",
+      "alive"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "info/info-script.js",
+    "category": "info",
+    "help": [
+      "sc",
+      "script"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "info/info-speed.js",
+    "category": "info",
+    "help": [
+      "ping",
+      "os",
+      "system"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "info/info-stats.js",
+    "category": "info",
+    "help": [
+      "stats"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "info/info-totalfitur.js",
+    "category": "info",
+    "help": [
+      "totalfitur"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "info/info-totaluser.js",
+    "category": "info",
+    "help": [
+      "totaluser"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "info/intro.js",
+    "category": "info",
+    "help": [],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "info/main-afk.js",
+    "category": "info",
+    "help": [],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "info/main-creator.js",
+    "category": "info",
+    "help": [
+      "owner",
+      "creator"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "info/main-enable.js",
+    "category": "info",
+    "help": [
+      "enable",
+      "disable"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "info/main-menu.js",
+    "category": "info",
+    "help": [
+      "menu",
+      "help",
+      "perintah"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "info/main-sosmed.js",
+    "category": "info",
+    "help": [
+      "sosmed"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "info/showroom.js",
+    "category": "info",
+    "help": [
+      "showroom <key|url>",
+      "showroom live",
+      "showroom add",
+      "showroom del",
+      "showroom list"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "info/tes.js",
+    "category": "info",
+    "help": [],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "info/totalpesan.js",
+    "category": "info",
+    "help": [
+      "totalchat"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "internet/internet-antara.js",
+    "category": "internet",
+    "help": [
+      "antara"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "internet/internet-cnbc.js",
+    "category": "internet",
+    "help": [
+      "cnbc"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "internet/internet-doa.js",
+    "category": "internet",
+    "help": [
+      "doa <kata kunci>"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "internet/internet-donghua.js",
+    "category": "internet",
+    "help": [
+      "donghua",
+      "donghuadetail"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "internet/internet-gimg.js",
+    "category": "internet",
+    "help": [
+      "gimg"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "internet/internet-jadwalpuasa.js",
+    "category": "internet",
+    "help": [
+      "jadwalpuasa <kota>"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "internet/internet-kbbi.js",
+    "category": "internet",
+    "help": [
+      "kbbi"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "internet/internet-komikindo.js",
+    "category": "internet",
+    "help": [
+      "komikindo"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "internet/internet-komiku.js",
+    "category": "internet",
+    "help": [
+      "komiku"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "internet/internet-lyrict.js",
+    "category": "internet",
+    "help": [
+      "lyrics <judul>"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "internet/internet-ppcp.js",
+    "category": "internet",
+    "help": [
+      "ppcouple",
+      "ppcp"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "internet/internet-wikipedia.js",
+    "category": "internet",
+    "help": [
+      "wiki",
+      "wikipedia"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "main/language.js",
+    "category": "main",
+    "help": [
+      "lang <id|en>",
+      "language <id|en>"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "maker/brat.js",
+    "category": "maker",
+    "help": [
+      "brat <text>"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "maker/brat2.js",
+    "category": "maker",
+    "help": [
+      "brat2 <teks>"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "maker/brathd.js",
+    "category": "maker",
+    "help": [
+      "brathd <text>"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "maker/bratvid.js",
+    "category": "maker",
+    "help": [
+      "bratvid <teks>"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "maker/fakeduoff.js",
+    "category": "maker",
+    "help": [
+      "fakeffduo <nama1|nama2>",
+      "fakefreefirduo <nama1|nama2>"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "maker/fakeff.js",
+    "category": "maker",
+    "help": [
+      "fakeff"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "maker/image-tomanga.js",
+    "category": "maker",
+    "help": [
+      "tomanga"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "maker/maker-berita.js",
+    "category": "maker",
+    "help": [
+      "berita"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "maker/maker-cewekbrat.js",
+    "category": "maker",
+    "help": [
+      "cewekbrat <teks>"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "maker/maker-codesnap.js",
+    "category": "maker",
+    "help": [
+      "codesnap <code>"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "maker/maker-fakebca.js",
+    "category": "maker",
+    "help": [
+      "fkebca <nama>|<norek>|<saldo>"
+    ],
+    "status": "excluded-risk"
+  },
+  {
+    "file": "maker/maker-fakecallandro.js",
+    "category": "maker",
+    "help": [
+      "fakecall2 <nama>|<durasi>"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "maker/maker-fakedana.js",
+    "category": "maker",
+    "help": [
+      "fakedana <nominal>"
+    ],
+    "status": "excluded-risk"
+  },
+  {
+    "file": "maker/maker-fakegopay.js",
+    "category": "maker",
+    "help": [
+      "fakegopay"
+    ],
+    "status": "excluded-risk"
+  },
+  {
+    "file": "maker/maker-fakeiosch.js",
+    "category": "maker",
+    "help": [
+      "fakech <Nama | Pengikut | Jam>"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "maker/maker-fakeml.js",
+    "category": "maker",
+    "help": [
+      "fakeml <teks> (reply foto)"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "maker/maker-fakestory.js",
+    "category": "maker",
+    "help": [
+      "igstory <teks>"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "maker/maker-faketele.js",
+    "category": "maker",
+    "help": [
+      "faketele <Nama | Nomor | Bio | Username>"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "maker/maker-faketweet.js",
+    "category": "maker",
+    "help": [
+      "faketweet <name>|<username>|<comment>|<verified>"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "maker/maker-fakewafat.js",
+    "category": "maker",
+    "help": [
+      "fakewafat"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "maker/maker-hitamkan.js",
+    "category": "maker",
+    "help": [
+      "tobotak",
+      "tochibi",
+      "tofunk",
+      "tofigura",
+      "tofigurav2",
+      "tofigurav3",
+      "toghibli",
+      "tohijab",
+      "tojapanese",
+      "tojepang",
+      "tokacamata",
+      "tokamboja",
+      "tolego",
+      "toliquor",
+      "tomaid",
+      "tomirror",
+      "tomoai",
+      "tomonyet",
+      "topacar",
+      "topeci",
+      "topiramida",
+      "toputih",
+      "toreal",
+      "toroblox",
+      "toroh",
+      "totato",
+      "totua",
+      "toviking",
+      "tozombie",
+      "tounderground",
+      "tohitam"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "maker/maker-iosgc.js",
+    "category": "maker",
+    "help": [
+      "fakegc <Nama | Anggota>"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "maker/maker-iqc.js",
+    "category": "maker",
+    "help": [
+      "iqc"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "maker/maker-iqc2.js",
+    "category": "maker",
+    "help": [
+      "iqc2 <text>|<chatTime>|<statusTime>"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "maker/maker-quote.js",
+    "category": "maker",
+    "help": [
+      "quote"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "maker/maker-ttqc.js",
+    "category": "maker",
+    "help": [
+      "ttqc"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "maker/maker-wacall.js",
+    "category": "maker",
+    "help": [
+      "wacall <nama>|<durasi>"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "maker/maker-wq.js",
+    "category": "maker",
+    "help": [
+      "wq <text>"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "maker/maker-ytcomment.js",
+    "category": "maker",
+    "help": [
+      "ytcomment <username>|<komentar>"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "maker/qc.js",
+    "category": "maker",
+    "help": [
+      "qc"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "maker/typogaleri.js",
+    "category": "maker",
+    "help": [
+      "typogaleri2 judul|tempat (reply video/foto)"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "maker/wm.js",
+    "category": "maker",
+    "help": [
+      "wm <packname>|<author>"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "misc/Iqcv2.js",
+    "category": "misc",
+    "help": [
+      "iqcv2"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "misc/birthdaylist.js",
+    "category": "misc",
+    "help": [
+      "listbirthday"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "misc/dashlive.js",
+    "category": "misc",
+    "help": [
+      "dashboardlive",
+      "dashlive",
+      "statusbotlive"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "misc/kalkulator-mbg.js",
+    "category": "misc",
+    "help": [
+      "kalkulatormbg <jumlah_uang>",
+      "kkmbg <jumlah_uang>"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "misc/notifberita.js",
+    "category": "misc",
+    "help": [
+      "notifberita",
+      "setberita",
+      "intervalberita"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "misc/rch2.js",
+    "category": "misc",
+    "help": [
+      "rch2"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "misc/spamotp.js",
+    "category": "misc",
+    "help": [],
+    "status": "excluded-risk"
+  },
+  {
+    "file": "misc/tool-translate.js",
+    "category": "misc",
+    "help": [
+      "translate"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "misc/tqto.js",
+    "category": "misc",
+    "help": [
+      "tqto"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "misc/tt2.js",
+    "category": "misc",
+    "help": [
+      "tiktok2 <url>",
+      "tt2 <url>"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "misc/tt3.js",
+    "category": "misc",
+    "help": [
+      "tt",
+      "ttdl",
+      "tiktok"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "misc/tt4.js",
+    "category": "misc",
+    "help": [
+      "tt4",
+      "ttdl4",
+      "tiktok4"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "misc/upch.js",
+    "category": "misc",
+    "help": [
+      "upch"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "music/play.js",
+    "category": "music",
+    "help": [
+      "play"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "music/play2.js",
+    "category": "music",
+    "help": [
+      "play2"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "music/play3.js",
+    "category": "music",
+    "help": [
+      "ytplay <judul/link>",
+      "ytp <judul/link>"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "music/spotifyplay.js",
+    "category": "music",
+    "help": [
+      "spotify"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "music/yts.js",
+    "category": "music",
+    "help": [
+      ", "
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "notif/notifmagma.js",
+    "category": "notif",
+    "help": [
+      "magma on",
+      "magma off",
+      "magma setting",
+      "magma image on/off",
+      "magma list",
+      "magma catalog",
+      "magma gunung <kode>",
+      "magma sekarang"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "owner/cekwa.js",
+    "category": "owner",
+    "help": [
+      "cekwa <nomor>"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "owner/cpanel.js",
+    "category": "owner",
+    "help": [
+      "pannel",
+      "1gb-10gb",
+      "unli",
+      "createadmin",
+      "listpanel",
+      "listadmin",
+      "delpanel",
+      "deladmin"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "owner/crm.js",
+    "category": "owner",
+    "help": [],
+    "status": "catalogued"
+  },
+  {
+    "file": "owner/dmsg.js",
+    "category": "owner",
+    "help": [
+      "dmsg"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "owner/encjs.js",
+    "category": "owner",
+    "help": [
+      "encjs"
+    ],
+    "status": "excluded-risk"
+  },
+  {
+    "file": "owner/exec.js",
+    "category": "owner",
+    "help": [],
+    "status": "excluded-risk"
+  },
+  {
+    "file": "owner/isbot.js",
+    "category": "owner",
+    "help": [
+      "isbot",
+      "cekdevice"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "owner/owner-addlimit.js",
+    "category": "owner",
+    "help": [
+      "addlimit <jumlah> (@tag/nomor/reply)"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "owner/owner-backup.js",
+    "category": "owner",
+    "help": [
+      "backup"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "owner/owner-banchat.js",
+    "category": "owner",
+    "help": [
+      "banchat"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "owner/owner-banuser.js",
+    "category": "owner",
+    "help": [
+      "ban"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "owner/owner-cekidgc.js",
+    "category": "owner",
+    "help": [
+      "cekidgc"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "owner/owner-clearead.js",
+    "category": "owner",
+    "help": [
+      "clearead"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "owner/owner-delprem.js",
+    "category": "owner",
+    "help": [
+      "delprem"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "owner/owner-dfp.js",
+    "category": "owner",
+    "help": [
+      "dfp <nama-plugin>"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "owner/owner-exec.js",
+    "category": "owner",
+    "help": [
+      ">",
+      "=",
+      "> debug"
+    ],
+    "status": "excluded-risk"
+  },
+  {
+    "file": "owner/owner-exec2.js",
+    "category": "owner",
+    "help": [
+      "$"
+    ],
+    "status": "excluded-risk"
+  },
+  {
+    "file": "owner/owner-fakemsg.js",
+    "category": "owner",
+    "help": [
+      "fakemsg"
+    ],
+    "status": "excluded-risk"
+  },
+  {
+    "file": "owner/owner-gp.js",
+    "category": "owner",
+    "help": [
+      "getplugin <nama>",
+      "gp <nama>"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "owner/owner-grepplugin.js",
+    "category": "owner",
+    "help": [
+      "grepplugin <keyword>"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "owner/owner-joingc.js",
+    "category": "owner",
+    "help": [
+      "joingc <link grup>"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "owner/owner-listgc.js",
+    "category": "owner",
+    "help": [
+      "listgc"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "owner/owner-premium.js",
+    "category": "owner",
+    "help": [
+      "addprem <hari> <@tag/nomor>",
+      "delprem <@tag/nomor>"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "owner/owner-resetlimit.js",
+    "category": "owner",
+    "help": [
+      "resetlimit <jumlah>"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "owner/owner-savescrape.js",
+    "category": "owner",
+    "help": [
+      "savescrape"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "owner/owner-setlabel.js",
+    "category": "owner",
+    "help": [
+      "setlabel",
+      "label"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "owner/owner-setmenu.js",
+    "category": "owner",
+    "help": [
+      "setmenu"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "owner/owner-sfp.js",
+    "category": "owner",
+    "help": [
+      "sfp <text>"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "owner/owner-simulate.js",
+    "category": "owner",
+    "help": [
+      "simulate"
+    ],
+    "status": "excluded-risk"
+  },
+  {
+    "file": "owner/owner-sleepmode.js",
+    "category": "owner",
+    "help": [],
+    "status": "catalogued"
+  },
+  {
+    "file": "owner/owner-swgc.js",
+    "category": "owner",
+    "help": [
+      "swgroup"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "owner/owner-unbanchat.js",
+    "category": "owner",
+    "help": [
+      "unbanchat"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "owner/owner-unbanuser.js",
+    "category": "owner",
+    "help": [
+      "unban"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "owner/playch.js",
+    "category": "owner",
+    "help": [
+      "playch <judul lagu>"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "owner/resetautoai.js",
+    "category": "owner",
+    "help": [
+      "resetautoai"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "owner/runcrm.js",
+    "category": "owner",
+    "help": [
+      "runcrm"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "owner/self.js",
+    "category": "owner",
+    "help": [
+      "self",
+      "public"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "owner/setThumbnail.js",
+    "category": "owner",
+    "help": [
+      "setthumbnail"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "owner/setppbot.js",
+    "category": "owner",
+    "help": [
+      "setppbot"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "premium/am-prem2.js",
+    "category": "premium",
+    "help": [
+      "amprem2 <email>",
+      "ampremverify2 <magic-link>"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "premium/amprem2.js",
+    "category": "premium",
+    "help": [
+      "amprem-send",
+      "amprem-verif"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "premium/ceksewa.js",
+    "category": "premium",
+    "help": [],
+    "status": "catalogued"
+  },
+  {
+    "file": "premium/cekswgc.js",
+    "category": "premium",
+    "help": [],
+    "status": "catalogued"
+  },
+  {
+    "file": "premium/listsewa.js",
+    "category": "premium",
+    "help": [],
+    "status": "catalogued"
+  },
+  {
+    "file": "premium/ppjsewa.js",
+    "category": "premium",
+    "help": [],
+    "status": "catalogued"
+  },
+  {
+    "file": "premium/prem-jadibot.js",
+    "category": "premium",
+    "help": [
+      "jadibot <nomor>",
+      "stopjadibot <nomor>",
+      "listjadibot"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "premium/sewa-join.js",
+    "category": "premium",
+    "help": [],
+    "status": "catalogued"
+  },
+  {
+    "file": "premium/zelapi-nokos.js",
+    "category": "premium",
+    "help": [
+      "sms",
+      "sms services",
+      "sms countries <service>",
+      "sms get <service>|<country>",
+      "sms numbers",
+      "sms otp <number>",
+      "sms otps",
+      "sms release <number>",
+      "sms feed",
+      "sms stats"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "relationship/addmoney.js",
+    "category": "relationship",
+    "help": [],
+    "status": "catalogued"
+  },
+  {
+    "file": "relationship/addpasangan.js",
+    "category": "relationship",
+    "help": [
+      "addpasangan"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "relationship/jadian-putus.js",
+    "category": "relationship",
+    "help": [
+      "putus"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "relationship/jadian-terima.js",
+    "category": "relationship",
+    "help": [
+      "terima"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "relationship/jadian-tolak.js",
+    "category": "relationship",
+    "help": [
+      "tolak"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "relationship/pasanganku.js",
+    "category": "relationship",
+    "help": [
+      "pasanganku",
+      "pacarku"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "relationship/putuspasangan.js",
+    "category": "relationship",
+    "help": [
+      "putuspasangan"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "relationship/setbirthday.js",
+    "category": "relationship",
+    "help": [
+      "setbirthday"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "relationship/xp-birthday.js",
+    "category": "relationship",
+    "help": [
+      "birthday"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "rpg/rpg-adventure.js",
+    "category": "rpg",
+    "help": [
+      "petualang"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-atm.js",
+    "category": "rpg",
+    "help": [
+      "atm"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-bagiuang.js",
+    "category": "rpg",
+    "help": [
+      "bagiuang @user jumlah"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-bank.js",
+    "category": "rpg",
+    "help": [
+      "bank"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-bansos.js",
+    "category": "rpg",
+    "help": [
+      "korupsi"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-berburu.js",
+    "category": "rpg",
+    "help": [
+      "berburu"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-berdagang.js",
+    "category": "rpg",
+    "help": [
+      "berdagang"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-berkebon.js",
+    "category": "rpg",
+    "help": [
+      "berkebun"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-bet.js",
+    "category": "rpg",
+    "help": [
+      "judi"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-buah.js",
+    "category": "rpg",
+    "help": [
+      "listbuah"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-buy.js",
+    "category": "rpg",
+    "help": [
+      "buy"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-buyatm.js",
+    "category": "rpg",
+    "help": [
+      "buyatm"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-casino.js",
+    "category": "rpg",
+    "help": [
+      "casino"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-claim.js",
+    "category": "rpg",
+    "help": [
+      "claim"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-cook.js",
+    "category": "rpg",
+    "help": [
+      "masak <makanan> <jumlah>"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-cooldown.js",
+    "category": "rpg",
+    "help": [
+      "cooldown"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-craft.js",
+    "category": "rpg",
+    "help": [
+      "craft"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-deposit.js",
+    "category": "rpg",
+    "help": [
+      "deposit <jumlah>"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-dungeon.js",
+    "category": "rpg",
+    "help": [
+      "dungeon"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-eat.js",
+    "category": "rpg",
+    "help": [
+      "makan"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-endorse.js",
+    "category": "rpg",
+    "help": [
+      "endorse",
+      "fyp",
+      "verified"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-guild.js",
+    "category": "rpg",
+    "help": [
+      "guild"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-heal.js",
+    "category": "rpg",
+    "help": [
+      "heal",
+      "heal jumlah"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-hunt.js",
+    "category": "rpg",
+    "help": [
+      "hunt"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-inventory.js",
+    "category": "rpg",
+    "help": [
+      "inventory",
+      "inv"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-judibola.js",
+    "category": "rpg",
+    "help": [],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-kandang.js",
+    "category": "rpg",
+    "help": [
+      "kandang"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-kerja.js",
+    "category": "rpg",
+    "help": [
+      "kerja"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-leaderboard.js",
+    "category": "rpg",
+    "help": [
+      "leaderboard",
+      "lb"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-liveig.js",
+    "category": "rpg",
+    "help": [
+      "liveig"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-livetiktok.js",
+    "category": "rpg",
+    "help": [
+      "livetiktok"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-liveyt.js",
+    "category": "rpg",
+    "help": [
+      "liveyt"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-mancing.js",
+    "category": "rpg",
+    "help": [
+      "mancing"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-me.js",
+    "category": "rpg",
+    "help": [
+      "merpg"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-mentransfer.js",
+    "category": "rpg",
+    "help": [
+      "transfer"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-merampok.js",
+    "category": "rpg",
+    "help": [
+      "merampok @user"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-mining.js",
+    "category": "rpg",
+    "help": [
+      "mining"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-mulung.js",
+    "category": "rpg",
+    "help": [
+      "mulung"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-nebang.js",
+    "category": "rpg",
+    "help": [
+      "nebang"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-ngocok.js",
+    "category": "rpg",
+    "help": [
+      "ngocok"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-nguli.js",
+    "category": "rpg",
+    "help": [
+      "nguli"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-open.js",
+    "category": "rpg",
+    "help": [
+      "open"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-quest.js",
+    "category": "rpg",
+    "help": [
+      "quest"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-rank.js",
+    "category": "rpg",
+    "help": [
+      "rank"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-reward.js",
+    "category": "rpg",
+    "help": [
+      "harian",
+      "mingguan",
+      "bulanan"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-sell.js",
+    "category": "rpg",
+    "help": [
+      "sell"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-setrpg.js",
+    "category": "rpg",
+    "help": [
+      "setrpg"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-shop.js",
+    "category": "rpg",
+    "help": [
+      "shop"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-upgrade.js",
+    "category": "rpg",
+    "help": [
+      "upgradeatm"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-warnet.js",
+    "category": "rpg",
+    "help": [
+      "warnet"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "rpg/rpg-warteg.js",
+    "category": "rpg",
+    "help": [
+      "warteg"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "search/pin2.js",
+    "category": "search",
+    "help": [
+      "pindlrich <search> <jumlah>"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "search/search-applemusic.js",
+    "category": "search",
+    "help": [
+      "applemusicsearch <judul lagu>"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "search/search-bingimage.js",
+    "category": "search",
+    "help": [
+      "bingimage"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "search/search-douyinsearch.js",
+    "category": "search",
+    "help": [
+      "douyinsearch <query>"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "search/search-grupwa.js",
+    "category": "search",
+    "help": [
+      "grupwasearch <query>"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "search/search-happymod.js",
+    "category": "search",
+    "help": [
+      "happymodsearch <query>"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "search/search-jobstreetsearch.js",
+    "category": "search",
+    "help": [
+      "jobstreetsearch <posisi>|<kota>"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "search/search-nekopoi.js",
+    "category": "search",
+    "help": [
+      "nekopoi <query>",
+      "nekopoi latest",
+      "nekopoi search <query>",
+      "nekopoi genre <genre>",
+      "nekopoi category <category>",
+      "nekopoi schedule",
+      "nekopoi detail <url>"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "search/search-pinlive.js",
+    "category": "search",
+    "help": [
+      "pinlive <query> <jumlah>"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "search/search-pinterest.js",
+    "category": "search",
+    "help": [
+      "pinterest <query> <jumlah>"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "search/search-pinvideo.js",
+    "category": "search",
+    "help": [
+      "pinvid"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "search/search-playstore.js",
+    "category": "search",
+    "help": [
+      "playstoresearch <query>"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "search/search-spotify.js",
+    "category": "search",
+    "help": [
+      "spotify <query/link>",
+      "sp <query/link>"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "search/search-webton.js",
+    "category": "search",
+    "help": [
+      "webtoonsearch <judul>"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "search/stalk-ttstalk.js",
+    "category": "search",
+    "help": [
+      "ttstalk <username>"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "search/stickersearch.js",
+    "category": "search",
+    "help": [
+      "stickersearch <keyword>"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "search/ttsearch.js",
+    "category": "search",
+    "help": [
+      "ttsearch <keyword>"
+    ],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "sticker/sticker-anyabrat.js",
+    "category": "sticker",
+    "help": [
+      "bratanya",
+      "anya"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "sticker/sticker-reaksi.js",
+    "category": "sticker",
+    "help": [
+      "reaksi"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "sticker/sticker-smeme.js",
+    "category": "sticker",
+    "help": [
+      "smeme"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "sticker/sticker-stickerpack.js",
+    "category": "sticker",
+    "help": [
+      "stickerpack <query>"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "sticker/sticker-stickers.js",
+    "category": "sticker",
+    "help": [
+      "sticker"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "sticker/sticker-stikwiki.js",
+    "category": "sticker",
+    "help": [
+      "stikwiki <kata kunci>"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "sticker/sticker-tenor.js",
+    "category": "sticker",
+    "help": [
+      "tenor"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "sticker/stickerly.js",
+    "category": "sticker",
+    "help": [
+      "stickerly"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "store/store-addlist.js",
+    "category": "store",
+    "help": [
+      "addstore <nama>",
+      "liststore",
+      "getstore <nama>",
+      "delstore <nama>"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "store/store-payment.js",
+    "category": "store",
+    "help": [
+      "pay",
+      "addpay",
+      "delpay",
+      "listpay"
+    ],
+    "status": "catalogued"
+  },
+  {
+    "file": "tools/amfind.js",
+    "category": "tools",
+    "help": [
+      "amfind <url>"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "tools/compressvid.js",
+    "category": "tools",
+    "help": [
+      "compress auto",
+      "compress hd",
+      "compress ultra"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "tools/crm2.js",
+    "category": "tools",
+    "help": [
+      "crm2",
+      "crm-snipp"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "tools/enc.js",
+    "category": "tools",
+    "help": [
+      "encrypt"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "tools/hd2.js",
+    "category": "tools",
+    "help": [
+      "hdv 2",
+      "hdv 4"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "tools/nftoken.js",
+    "category": "tools",
+    "help": [
+      "nftoken"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "tools/rch.js",
+    "category": "tools",
+    "help": [
+      "rch <url> <reaction>"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "tools/sprem.js",
+    "category": "tools",
+    "help": [],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "tools/tools-8upload.js",
+    "category": "tools",
+    "help": [
+      "8upload"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "tools/tools-antidana.js",
+    "category": "tools",
+    "help": [
+      "antidana"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "tools/tools-antilinkphising.js",
+    "category": "tools",
+    "help": [
+      "antiphising"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "tools/tools-barcode.js",
+    "category": "tools",
+    "help": [
+      "barcode <teks>"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "tools/tools-blur.js",
+    "category": "tools",
+    "help": [
+      "blur"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "tools/tools-cap.js",
+    "category": "tools",
+    "help": [
+      "caption <teks>"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "tools/tools-cekidch.js",
+    "category": "tools",
+    "help": [
+      "cekidch"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "tools/tools-compress.js",
+    "category": "tools",
+    "help": [
+      "compress"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "tools/tools-delete.js",
+    "category": "tools",
+    "help": [
+      "del",
+      "delete",
+      "d"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "tools/tools-enc.js",
+    "category": "tools",
+    "help": [
+      "enc <code>"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "tools/tools-fetch.js",
+    "category": "tools",
+    "help": [
+      "fetch",
+      "get"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "tools/tools-fotolive.js",
+    "category": "tools",
+    "help": [
+      "fotolive"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "tools/tools-getpp.js",
+    "category": "tools",
+    "help": [
+      "ppwa <nomor>"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "tools/tools-hd.js",
+    "category": "tools",
+    "help": [
+      "hd",
+      "hdr"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "tools/tools-hdvid.js",
+    "category": "tools",
+    "help": [
+      "hdvideo"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "tools/tools-idgc.js",
+    "category": "tools",
+    "help": [
+      "cekidgc"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "tools/tools-kodebahasa.js",
+    "category": "tools",
+    "help": [
+      "kodebahasa"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "tools/tools-otpboom.js",
+    "category": "tools",
+    "help": [
+      "otpbomb"
+    ],
+    "status": "excluded-risk"
+  },
+  {
+    "file": "tools/tools-qrcode.js",
+    "category": "tools",
+    "help": [
+      "qrcode <teks>"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "tools/tools-rbg2.js",
+    "category": "tools",
+    "help": [
+      "removebg2"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "tools/tools-readviewonce.js",
+    "category": "tools",
+    "help": [
+      "rvo"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "tools/tools-removebg.js",
+    "category": "tools",
+    "help": [
+      "removebg"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "tools/tools-resize.js",
+    "category": "tools",
+    "help": [
+      "resize <width> <height>"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "tools/tools-sendquoted.js",
+    "category": "tools",
+    "help": [
+      "quoted <reply>"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "tools/tools-source.js",
+    "category": "tools",
+    "help": [
+      "source <url>"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "tools/tools-ssweb.js",
+    "category": "tools",
+    "help": [
+      "ssweb"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "tools/tools-tempmail.js",
+    "category": "tools",
+    "help": [
+      "tempmail",
+      "cekmail <email>",
+      "pesanmail <id>"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "tools/tools-tiktokboost.js",
+    "category": "tools",
+    "help": [
+      "tiktokboost <url>"
+    ],
+    "status": "excluded-risk"
+  },
+  {
+    "file": "tools/tools-tofile.js",
+    "category": "tools",
+    "help": [
+      "tofile <namafile.ext>"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "tools/tools-togif.js",
+    "category": "tools",
+    "help": [
+      "webp2mp4"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "tools/tools-toimg.js",
+    "category": "tools",
+    "help": [
+      "toimg <reply sticker>"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "tools/tools-tomp3.js",
+    "category": "tools",
+    "help": [
+      "tomp3"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "tools/tools-tourl.js",
+    "category": "tools",
+    "help": [
+      "tourl"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "tools/tools-upgh.js",
+    "category": "tools",
+    "help": [
+      "uploadgh",
+      "tourlgh"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "tools/tools-upvidey.js",
+    "category": "tools",
+    "help": [
+      "upvidey"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "tools/tools-wanted.js",
+    "category": "tools",
+    "help": [
+      "blur"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "tools/tools-whatmusic.js",
+    "category": "tools",
+    "help": [
+      "whatmusic",
+      "songfinder"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "tools/toptv.js",
+    "category": "tools",
+    "help": [
+      "toptv (reply)"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "tools/voice.js",
+    "category": "tools",
+    "help": [
+      "voice"
+    ],
+    "status": "native-or-compatible"
+  },
+  {
+    "file": "voice/vn.js",
+    "category": "voice",
+    "help": [],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "voice/voice-audio.js",
+    "category": "voice",
+    "help": [],
+    "status": "compat-provider-required"
+  },
+  {
+    "file": "voice/voice-tempo.js",
+    "category": "voice",
+    "help": [
+      "tempo <0.5-2.5>"
+    ],
+    "status": "compat-provider-required"
+  }
+]

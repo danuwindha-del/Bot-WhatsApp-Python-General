@@ -1,0 +1,37 @@
+import {Window} from 'happy-dom';
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+const base='http://127.0.0.1:8765';
+const win=new Window({url:base});
+const errors=[];let cookie='';let requests=0;
+win.addEventListener('error',e=>errors.push(e.message));
+win.document.write(fs.readFileSync('web/static/index.html','utf8'));
+win.HTMLCanvasElement.prototype.getContext=()=>({clearRect(){},beginPath(){},moveTo(){},lineTo(){},stroke(){},fillRect(){},fillText(){}});
+win.EventSource=class {static OPEN=1;readyState=1;close(){this.readyState=2}};
+win.confirm=()=>true;
+win.fetch=async(path,opts={})=>{requests++;const headers={...opts.headers};if(cookie)headers.Cookie=cookie;if(opts.method&&opts.method!=='GET')headers.Origin=base;
+ const r=await fetch(base+path,{...opts,headers});const c=r.headers.get('set-cookie');if(c)cookie=c.split(';')[0];return r;};
+win.eval(fs.readFileSync('web/static/app.js','utf8'));
+const $=id=>win.document.getElementById(id);
+const wait=async f=>{for(let i=0;i<150;i++){if(f())return;await new Promise(r=>setTimeout(r,20));}throw Error('UI condition timed out')};
+await wait(()=>!$('login').hidden);
+$('username').value='admin';$('password').value='Ui-test-only-password';
+await $('loginForm').onsubmit({preventDefault(){}});
+assert.equal($('dashboard').hidden,false);assert.equal($('status').textContent,'demo');
+assert.ok($('commands').children.length>200);
+for(const b of win.document.querySelectorAll('.tab')){b.click();assert.ok(win.document.querySelector(`[data-page="${b.dataset.tab}"]`).classList.contains('active'));}
+$('ai_timeout').value='18';$('ai_group_mode').value='mention';
+await $('aiForm').onsubmit({preventDefault(){}});assert.match($('notice').textContent,/diperbarui/);
+$('cooldown').value='0';$('max_download_mb').value='64';
+await $('configForm').onsubmit({preventDefault(){}});assert.match($('notice').textContent,/tersimpan/);
+const flag=$('featureToggles').querySelector('input');flag.checked=true;await flag.onchange();assert.match($('notice').textContent,/diperbarui/);
+$('commandSearch').value='calc';$('commandSearch').oninput();assert.ok($('commands').children.length>=1);
+await $('diagnose').onclick();assert.ok($('diagnostics').children.length>=6);
+$('testPrompt').value='halo';await $('testAI').onclick();assert.match($('testResult').textContent,/AI belum aktif/);assert.equal($('testAI').disabled,false);
+await $('clearMemory').onclick();assert.match($('notice').textContent,/dibersihkan/);
+$('sendTarget').value='628123456789';$('sendText').value='test';await $('sendMessage').onclick();assert.match($('notice').textContent,/belum terhubung/);
+for(const action of ['stop','start','restart']){await $(action).onclick();assert.equal($('status').textContent,action==='stop'?'stopped':'demo');}
+await $('logout').onclick();assert.equal($('dashboard').hidden,true);
+assert.deepEqual(errors,[]);
+console.log(JSON.stringify({result:'PASS',requests,checks:['login','tabs','AI settings','performance settings','feature toggles','command search','diagnostics','AI test error','memory reset','send error','start/stop/restart','logout'],errors}));
+await win.happyDOM.close();
